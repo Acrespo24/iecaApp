@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imgSesion1"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <ImageView
+        android:id="@+id/imgSesion2"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSesion1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <ImageView
+        android:id="@+id/imgSesion4"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSesion3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <ImageView
+        android:id="@+id/imgSesion3"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="150dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSesion2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <ImageView
+        android:id="@+id/imgSesion5"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSesion1"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <ImageView
+        android:id="@+id/imgSesion6"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSesion5"
+        app:layout_constraintTop_toBottomOf="@+id/imgSesion2"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <ImageView
+        android:id="@+id/imgSesion7"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSesion6"
+        app:layout_constraintTop_toBottomOf="@+id/imgSesion3"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <ImageView
+        android:id="@+id/imgSesion8"
+        android:layout_width="48dp"
+        android:layout_height="48sp"
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/imgSesion7"
+        app:layout_constraintTop_toBottomOf="@+id/imgSesion4"
+        app:srcCompat="@mipmap/coraoff_foreground" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="220dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

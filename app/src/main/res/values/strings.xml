@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">iecaApp</string>
+    <string name="app_inicio">Inicio de sesion</string>
+    <string name="navigation_drawer_open">Abrir navigation drawer</string>
+    <string name="navigation_drawer_close">Cerrar navigation drawer</string>
+    <string name="nav_header_title">Curso de Android Studio</string>
+    <string name="nav_header_subtitle">a_crespo24@hotmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Contraseña</string>
+    <string name="menu_home">Inicio</string>
+    <string name="menu_gallery">Galeria</string>
+    <string name="menu_slideshow">Diapositiva</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_reglas">Reglas</string>
+    <string name="menu_sesiones">Sesiones</string>
+    <string name="menu_temario">Temario</string>
+    <string name="menu_avance">Avance</string>
+    <string name="menu_contra">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="mail">Correo</string>
+    <string name="pass">Contraseña</string>
+    <string name="Acept">Aceptar</string>
+
+</resources>
